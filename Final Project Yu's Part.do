@@ -1,6 +1,10 @@
 clear
 set mem 500m
-use "C:\Users\yuerl\Desktop\Gu Econ\econ 554 stata\DA Final Re.dta", clear
+
+* Please remember to change to your own directory
+cd "C:\Users\yuerl\Desktop\Gu Econ\econ 554 stata"
+use "DA Final Re.dta", clear
+
 
 * GENERATE INTERACTION TERMS AND VARIABLES
 * exchange rate as of jan1 2005
